@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bill Payment Reminder System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>💡 Bill Payment Reminder System</h1>
+
+    <h2>Add Bill</h2>
+    <input type="text" id="billName" placeholder="Bill Name (Electricity, Mobile)">
+    <input type="date" id="dueDate">
+    <input type="number" id="amount" placeholder="Amount">
+    <button onclick="addBill()">Add Bill</button>
+
+    <p id="msg"></p>
+
+    <h2>Upcoming Bills</h2>
+    <ul id="billList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
